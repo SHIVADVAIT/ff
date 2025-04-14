@@ -1,0 +1,12 @@
+export const StyledDiagram = styled(Box)(({ theme }) => ({
+  height: "350px", // Decreased height for the chart
+  maxWidth: "100%", // Ensure the chart scales responsively
+  overflow: "hidden", // Prevent the chart from overflowing its container
+  display: "flex",
+  flexDirection:"column",
+  justifyContent: "center",
+  alignItems: "center",
+}));
+
+
+no cklassname adjust yoursekf
